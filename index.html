@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dicentra</title>
+
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style1.css">
+
+  <link rel="stylesheet" href="scss/style.css">
+
+</head>
+<body>
+
+  <!-- Hero -->
+<section class="hero text-white d-flex align-items-center" style="background: url('images/hero.png') center/cover no-repeat; height: 80vh;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-start">
+        <h1 class="display-4 fw-bold">Дарим радость цветами</h1>
+        <p class="lead mb-4">Выберите идеальный букет для любого случая</p>
+        <a href="#section1" class="btn btn-lg btn-light me-2">Выбрать букет</a>
+        <a href="#section2" class="btn btn-lg btn-outline-light">Узнать больше</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- navbar -->
+
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto flex-column flex-lg-row text-center">
+        <li class="nav-item"><a class="nav-link black-link" href="#section1">БЕСТСЕЛЛЕРЫ</a></li>
+        <li class="nav-item"><a class="nav-link black-link" href="#contentSlider">ИНФОРМАЦИЯ</a></li>
+        <li class="nav-item"><a class="nav-link black-link" href="#section3">АССОРТИМЕНТ</a></li>
+        <li class="nav-item"><a class="nav-link pink-link" href="#section4">ПОДБОР</a></li>
+      </ul>
+
+      <ul class="navbar-nav ms-auto flex-row flex-lg-row justify-content-center icons-menu">
+        <li class="nav-item"><a class="nav-link" href="#"><img src="images/user.png" alt="User"></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><img src="images/Union.png" alt="Union"></a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            <img src="images/countshop.png" alt="Shop">
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Блог</a></li>
+            <li><a class="dropdown-item" href="#">Поддержка</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- tabs -->
+
+<section class="bestsellers py-5" id="section1">
+  <div class="container text-center">
+    <h2 class="mb-4">Наши бестселлеры</h2>
+
+    <ul class="nav nav-tabs justify-content-center mb-4" id="flowersTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active black-link" id="roses-tab" data-bs-toggle="tab" href="#roses" role="tab">Розы</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link black-link" id="tulips-tab" data-bs-toggle="tab" href="#tulips" role="tab">Тюльпаны</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link black-link" id="peonies-tab" data-bs-toggle="tab" href="#peonies" role="tab">Пионы</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link black-link" id="mix-tab" data-bs-toggle="tab" href="#mix" role="tab">Микс</a>
+      </li>
+    </ul>
+
+    <div class="tab-content" id="flowersTabContent">
+      <div class="tab-pane fade show active" id="roses" role="tabpanel">
+        <div class="row g-4">
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/flovers.png" class="card-img-top" alt="Розы">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #29 Роз Джумилия</h6>
+                <p class="card-text price">1089 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/flovers.png" class="card-img-top" alt="Розы">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #29 Роз Джумилия</h6>
+                <p class="card-text price">1089 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/flovers.png" class="card-img-top" alt="Розы">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #29 Роз Джумилия</h6>
+                <p class="card-text price">1089 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/flovers.png" class="card-img-top" alt="Розы">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #29 Роз Джумилия</h6>
+                <p class="card-text price">1089 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Тюльпаны -->
+      <div class="tab-pane fade" id="tulips" role="tabpanel">
+        <div class="row g-4">
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/tu.jpg" class="card-img-top" alt="Тюльпаны">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #15 Тюльпаны</h6>
+                <p class="card-text price">899 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/tu.jpg" class="card-img-top" alt="Тюльпаны">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #15 Тюльпаны</h6>
+                <p class="card-text price">899 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/tu.jpg" class="card-img-top" alt="Тюльпаны">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #15 Тюльпаны</h6>
+                <p class="card-text price">899 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/tu.jpg" class="card-img-top" alt="Тюльпаны">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #15 Тюльпаны</h6>
+                <p class="card-text price">899 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Пионы -->
+      <div class="tab-pane fade" id="peonies" role="tabpanel">
+        <div class="row g-4">
+          
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/pion.jpg" class="card-img-top" alt="Пионы">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #12 Пионы</h6>
+                <p class="card-text price">759 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/pion.jpg" class="card-img-top" alt="Пионы">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #12 Пионы</h6>
+                <p class="card-text price">759 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/pion.jpg" class="card-img-top" alt="Пионы">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #12 Пионы</h6>
+                <p class="card-text price">759 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/pion.jpg" class="card-img-top" alt="Пионы">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #12 Пионы</h6>
+                <p class="card-text price">759 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Микс -->
+      <div class="tab-pane fade" id="mix" role="tabpanel">
+        <div class="row g-4">
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/mix.jpg" class="card-img-top" alt="Микс">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #7 Микс</h6>
+                <p class="card-text price">1 299 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/mix.jpg" class="card-img-top" alt="Микс">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #7 Микс</h6>
+                <p class="card-text price">1 299 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/mix.jpg" class="card-img-top" alt="Микс">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #7 Микс</h6>
+                <p class="card-text price">1 299 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="images/mix.jpg" class="card-img-top" alt="Микс">
+              <div class="card-body text-center">
+                <h6 class="card-title">Букет #7 Микс</h6>
+                <p class="card-text price">1 299 руб</p>
+                <button class="btn btn-dark mb-2 add-to-cart">В корзину</button>
+                <a href="#" class="quick-order">Быстрый заказ</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Почему выбирают нас -->
+<section class="features py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-5">Почему выбирают нас</h2>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="p-4 shadow-sm rounded bg-white h-100">
+          🌷 <h5 class="mt-3">Свежие цветы</h5>
+          <p>Мы работаем только с проверенными поставщиками.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-4 shadow-sm rounded bg-white h-100">
+          🚚 <h5 class="mt-3">Быстрая доставка</h5>
+          <p>Доставим букет в течение 2 часов после заказа.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-4 shadow-sm rounded bg-white h-100">
+          🎨 <h5 class="mt-3">Индивидуальные букеты</h5>
+          <p>Соберём цветочную композицию по вашим пожеланиям.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-4 shadow-sm rounded bg-white h-100">
+          💎 <h5 class="mt-3">Гарантия качества</h5>
+          <p>Если букет не понравится, мы заменим его бесплатно.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Toast (уведомление) -->
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1100">
+    <div id="cartToast" class="toast align-items-center text-bg-dark border-0" role="alert">
+      <div class="d-flex">
+        <div class="toast-body">
+          В настоящее время магазин недоступен
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Скрипт для показа уведомления -->
+<script>
+  document.querySelectorAll('.add-to-cart').forEach(btn => {
+    btn.addEventListener('click', function () {
+      let toastEl = document.getElementById('cartToast');
+      let toast = new bootstrap.Toast(toastEl);
+      toast.show();
+    });
+  });
+</script>
+
+
+
+
+
+<!-- слайдер -->
+<div id="contentSlider" class="carousel slide" data-bs-ride="carousel" style="height:50vh;">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#contentSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Слайд 1"></button>
+    <button type="button" data-bs-target="#contentSlider" data-bs-slide-to="1" aria-label="Слайд 2"></button>
+  </div>
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active text-center">
+      <img src="images/sklad.png" class="d-block mx-auto" alt="Слайд 1" style="width: 300px; border-radius: 10px;">
+      <h3 class="mt-3">Склад-шоурум</h3>
+      <p style="width: 500px; margin: 0 auto; text-align: center;">Необычное словосочетание, не правда ли? Согласны, а ведь это еще и 50 квадратных метров, куда можно прийти, приехать, прилететь в любой день недели, выбрать понравившийся цветок и выпить вкуснейший кофе.</p>
+    </div>
+
+    <div class="carousel-item text-center">
+      <img src="images/serv.png" class="d-block mx-auto" alt="Слайд 2" style="width: 300px; border-radius: 10px;">
+      <h3 class="mt-3">Флористы-альтруисты</h3>
+      <p style="width: 500px; margin: 0 auto; text-align: center;">Если вы еще до сих пор не знаете, кто такой альтруист, есть отличный предлог погуглить ;) Ведь наши флористы всегда в курсе последних трендов в создании букетов, всегда учитывают ваши пожелания и помимо цветка, заворачивают в упаковку еще и частичку своей души :)</p>
+    </div>
+
+  </div> 
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#contentSlider" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#contentSlider" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- Reviews -->
+<section class="reviews py-5 bg-light" id="reviews">
+  <div class="container text-center">
+    <h2 class="mb-4">Отзывы наших клиентов</h2>
+    <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <blockquote class="blockquote">
+            <p class="mb-4">"Очень красивый букет! Доставили вовремя, всё аккуратно. Обязательно закажу снова."</p>
+            <footer class="blockquote-footer">Анна, Москва</footer>
+          </blockquote>
+        </div>
+
+        <div class="carousel-item">
+          <blockquote class="blockquote">
+            <p class="mb-4">"Спасибо! Цветы свежие, яркие, упакованы стильно. Мама в восторге!"</p>
+            <footer class="blockquote-footer">Игорь, Санкт-Петербург</footer>
+          </blockquote>
+        </div>
+
+        <div class="carousel-item">
+          <blockquote class="blockquote">
+            <p class="mb-4">"Лучший сервис! Быстро оформила заказ и получила идеальный букет."</p>
+            <footer class="blockquote-footer">Мария, Казань</footer>
+          </blockquote>
+        </div>
+
+      </div>
+
+      <!-- Навигация -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" style="filter: invert(54%) sepia(77%) saturate(500%) hue-rotate(300deg);" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" style="filter: invert(54%) sepia(77%) saturate(500%) hue-rotate(300deg);" aria-hidden="true"></span>
+      </button>
+
+      <!-- Индикаторы -->
+      <div class="carousel-indicators mt-3">
+        <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="0" class="active" style="background-color:#F873AF;"></button>
+        <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="1" style="background-color:#F873AF;"></button>
+        <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="2" style="background-color:#F873AF;"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section class="gallery py-5" id="gallery">
+  <div class="container text-center">
+    <h2 class="mb-4">Галерея наших букетов</h2>
+    <div class="row g-4">
+
+      <div class="col-md-3">
+        <img src="images/gallery1.jpg" class="img-fluid rounded shadow-sm" data-bs-toggle="modal" data-bs-target="#img1Modal" alt="Букет 1">
+      </div>
+
+      <div class="col-md-3">
+        <img src="images/gallery2.jpg" class="img-fluid rounded shadow-sm" data-bs-toggle="modal" data-bs-target="#img2Modal" alt="Букет 2">
+      </div>
+
+      <div class="col-md-3">
+        <img src="images/gallery3.jpg" class="img-fluid rounded shadow-sm" data-bs-toggle="modal" data-bs-target="#img3Modal" alt="Букет 3">
+      </div>
+
+      <div class="col-md-3">
+        <img src="images/gallery4.jpg" class="img-fluid rounded shadow-sm" data-bs-toggle="modal" data-bs-target="#img4Modal" alt="Букет 4">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Модальные окна для увеличения -->
+<div class="modal fade" id="img1Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <img src="images/gallery1.jpg" class="img-fluid rounded" alt="Букет 1">
+  </div>
+</div>
+<div class="modal fade" id="img2Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <img src="images/gallery2.jpg" class="img-fluid rounded" alt="Букет 2">
+  </div>
+</div>
+<div class="modal fade" id="img3Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <img src="images/gallery3.jpg" class="img-fluid rounded" alt="Букет 3">
+  </div>
+</div>
+<div class="modal fade" id="img4Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <img src="images/gallery4.jpg" class="img-fluid rounded" alt="Букет 4">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-light text-dark pt-4 mt-5">
+  <div class="container">
+    <h5 class="text-center mb-4">🌸 Цветочный магазин 🌸</h5>
+    
+    <div class="accordion" id="footerAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            О нас
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#footerAccordion">
+          <div class="accordion-body">
+            Мы создаём букеты для ваших самых тёплых моментов. Наша миссия — дарить радость и атмосферу праздника в каждый дом.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Доставка и оплата
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#footerAccordion">
+          <div class="accordion-body">
+            🚚 Доставка по городу и ближайшим районам.<br>
+            💳 Оплата картой онлайн или при получении.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Контакты
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#footerAccordion">
+          <div class="accordion-body">
+            📞 +7 (999) 123-45-67<br>
+            ✉️ info@dicentra.ru<br>
+            🌐 Мы в соцсетях: Instagram, VK
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            FAQ
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#footerAccordion">
+          <div class="accordion-body">
+            <p><b>Можно ли собрать букет по фото?</b><br> Да, просто пришлите нам картинку.</p>
+            <p><b>Как оформить быстрый заказ?</b><br> Нажмите кнопку «Быстрый заказ» под любым букетом.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <p class="mb-0">&copy; 2025 Dicentra. Все права защищены.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
