@@ -1,0 +1,6 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(44%) sepia(76%) saturate(2500%) hue-rotate(310deg) brightness(99%) contrast(101%);
+  width: 40px;
+  height: 40px;
+}/*# sourceMappingURL=slider.css.map */
